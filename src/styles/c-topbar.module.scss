@@ -1,0 +1,20 @@
+@import 'settings.module';
+
+.wrapper {
+  background-color: $color-main;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding: 0.5rem;
+}
+
+.logoContainer {
+  width: 96px;
+  height: 28px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+}
